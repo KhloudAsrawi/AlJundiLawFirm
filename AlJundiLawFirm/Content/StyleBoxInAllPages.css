@@ -1,0 +1,599 @@
+﻿/* The title inside the slide's pictures the home page */
+.TitleSlide{
+    color:#ffb100;
+    font-weight:bold;
+    font-size:30px;
+    text-shadow:2px 2px #646464;
+}
+
+ /* The paragraph inside the slide's pictures the home page */
+.PSlide{
+    font-size:22px;
+    font-weight:bold;
+    line-height:24px;
+}
+
+/* Image size of users on all pages */
+img.SizeImage{
+    width:80%;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Format heading 'H1' on all pages */
+.StyleH1{
+    color: #7b5600;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    margin: 15px auto auto auto;
+    overflow-wrap:break-word;
+}
+
+.StyleH1-2{
+    color: #ffb100;
+    font-weight: bold;
+    font-size: 30px;
+    overflow-wrap:break-word;
+}
+
+.StyleH2{
+    color:#0180c3;
+    font-weight:bold;
+    font-size:28px;
+}
+
+.StyleH2-2{
+    color:#ffb100;
+    font-weight:bold;
+    font-size:28px;
+}
+
+.StyleH3{
+    color:#015cff;
+    font-weight:bold;
+    font-size:26px;
+}
+
+.StyleH4{
+    color:#015cff;
+    font-weight:bold;
+    font-size:24px;
+}
+
+.StyleH5{
+    color:#ffb100;
+    font-weight:bold;
+    font-size:22px;
+}
+
+.StyleH6 {
+    color: #ff5e00;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Format paragraph 'p' on all pages */
+.StyleP{
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.StyleP2{
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.StyleP-Justify{
+    line-height: 30px;
+    font-size: 20px;
+    text-align:justify;
+}
+
+.StyleBold {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 24px;
+}
+
+/* Padding in the Statistics results */
+.Padding-Statistics {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+/* Consultation Information (Full name of Consultation requester - Consultation date - The number of views to the consultation -
+The number of responses to the consultation) */
+.Consultation-Info {
+    line-height: 20px;
+    font-size: 16px;
+    text-align: right;
+    margin: -15px 15px auto auto;
+    font-weight: bold;
+}
+
+/* Consultation Title */
+.Consultation-Title {
+    height: 55px;
+    text-align: center;
+    color: #ffb100;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+/* Consultation Content*/
+.Consultation-Content {
+    height: 75px;
+    text-align: justify;
+}
+
+/* Link-Read-More To make the link below and on the left */
+a.Link-Read-More,  a.Link-Read-More:hover, a.Link-Read-More:active {
+    color: #ffb100;
+    align-self: flex-end;
+    text-align: left;
+    margin-left: 15px;
+    text-decoration:none;
+}
+
+a.Link-Read-More:visited {
+    color: #7b5600;
+}
+
+/* Hyper-Link-Go To make the link */
+a.Hyper-Link-Go,  a.Hyper-Link-Go:hover, a.Hyper-Link-Go:active, a.Hyper-Link-Go:visited {
+    color: #ffb100;
+    text-decoration:none;
+    font-size:18px;
+}
+
+a.Hyper-Link-Go2, a.Hyper-Link-Go2:hover, a.Hyper-Link-Go2:active, a.Hyper-Link-Go2:visited {
+    color: #ffffff;
+    text-decoration:none;
+    font-size:18px;
+}
+
+a.Hyper-Link-GoMail, a.Hyper-Link-GoMail:hover, a.Hyper-Link-GoMail:active, a.Hyper-Link-GoMail:visited {
+    color: #000000;
+    text-decoration:none;
+}
+
+a.Hyper-Link-Title,  a.Hyper-Link-Title:hover, a.Hyper-Link-Title:active, a.Hyper-Link-Title:visited {
+    color: #ffb100;
+    text-decoration:none;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Put an animation in the background of the page */
+.BodyImage {
+    background-image: url("../Images/ImagePage1.png");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;           
+}
+
+/* The height of the body of the page from the top and bottom, and in the event that its content is smaller than the entire page, 
+   so that the footer becomes at the bottom*/
+div.Pagebody {
+    font-size:18px;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    min-height: 53vh;
+}
+
+/* Put the Gavel Logo Start / End */
+P.Gavel-Logo-Start {
+    color: #7b5600;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    margin: 15px auto auto auto;
+}
+
+P.Gavel-Logo-End {
+    color: #7b5600;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    margin: 0px auto auto auto;
+}
+
+/* Box effects on all pages */
+.StyleBox{
+    border:2px solid #000000;
+    border-radius:50px;
+    background:#f1f1f1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    min-height: 26vh;
+}
+
+/* Column dimensions */
+.StyleFirstColumn{
+    margin:auto;
+    text-align:center;
+    font-size:17px;
+    direction:rtl;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.StyleSecondColumn {
+    padding-left: 10px;
+    padding-right: 25px;
+}
+
+.StyleThirdColumn {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.StyleFourthColumn {
+    margin: auto;
+    text-align: center;
+    font-size: 17px;
+    direction: rtl;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+
+.StyleColumn {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.StyleColumn2 {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/* The size of text area on all page */
+ textarea{
+    height: 200px;
+    resize: none;
+}
+
+/* Controllers control */
+.form-control{
+    font-size:16px;
+}
+
+/* Effect on notes */
+.Not{
+    color:#b1b1b1;
+    font-size:14px;
+    font-weight:bold;
+}
+
+.Not2{
+    color:#414141;
+    font-size:16px;
+    font-weight:bold;
+}
+
+/* Control the location of the buttons, record audio and upload attachments */
+.Location-Button {
+    width: 50%;
+    height: 30px;
+}
+
+.Location-Audio-Attachment {
+    width: 50%;
+    height: 60px;
+}
+
+/* Page Navigation */
+.page-link{
+    width: 40px;
+    text-align: center;
+    color: #ffc100;
+}
+
+.page-link:hover, .page-link:active {
+    background-color:#ffc100;
+    color: #ffffff;
+    text-decoration:none;
+}
+
+.page-link-actived{
+    background-color:#ffc100;
+    color: #ffffff; 
+}
+
+.page-link-actived:hover, .page-link-actived:active{
+    background-color:#ffffff;
+    color: #ffc100; 
+    text-decoration:none;
+}
+
+/* After checking the results, show the error */
+.Verify{
+    color: red;
+    font-size:16px;
+    font-weight:bold;
+}
+
+/* To arrange and display the search buttons */
+.Font-Size-input-group{
+    font-size:18px;
+    text-align:right;
+    font-weight:bold;
+}
+
+.Height-Buttons {
+    margin-left:8px;
+    margin-right:8px;
+    margin-top:6px;
+    height: auto;
+}
+
+/* Split the rows inside the 'StyleBox' on the settings page */
+.RowStyle{
+    color:black;
+    direction:rtl;
+    text-align:right;
+    font-size:20px;
+    font-weight:bold;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border:0px;
+    min-height: 50px;
+}
+
+/* The position of the close button is in the header of the model to the left */
+.modal-header .btn-close {
+    margin:0px;
+}
+
+/* Search display area*/
+iframe{
+    height:125px;
+}
+
+/* media screen iframe */
+@media only screen and (max-width: 1300px) and (min-width: 992px) {
+    iframe{
+        height:125px;
+    }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 270px) {
+    iframe{
+        height:300px;
+    }
+}
+
+/* media screen */
+@media only screen and (max-width: 1300px) and (min-width: 1050px) { /*1*/
+    /* The title inside the slide's pictures the home page */
+    .TitleSlide{
+        font-size:30px;
+    }
+
+     /* The paragraph inside the slide's pictures the home page */
+    .PSlide{
+        font-size:22px;
+        line-height:24px;
+    }
+
+    /* Image size of users on all pages */
+    img.SizeImage{
+        width:80%;
+    }
+
+    /* Consultation Title */
+    .Consultation-Title {
+        height: 55px;
+    }
+
+    /* Consultation Content*/
+    .Consultation-Content {
+        height: 75px;
+    }
+
+    /* The height of the body of the page from the top and bottom, and in the event that its content is smaller than the entire page, 
+       so that the footer becomes at the bottom*/
+    div.Pagebody {
+        margin-top: 5%;
+    }
+
+    /* Put the Gavel Logo Start / End */
+    p.Gavel-Logo-Start, p.Gavel-Logo-End {
+        margin-left: -0px;
+    }
+}
+
+@media only screen and (max-width: 1049px) and (min-width: 800px) { /*2*/
+    /* The title inside the slide's pictures the home page */
+    .TitleSlide{
+        font-size:28px;
+    }
+
+     /* The paragraph inside the slide's pictures the home page */
+    .PSlide{
+        font-size:20px;
+        line-height:22px;
+    }
+
+    /* Image size of users on all pages */
+    img.SizeImage{
+        width:57%;
+    }
+
+    /* Consultation Title */
+    .Consultation-Title {
+        height: 60px;
+    }
+
+    /* Consultation Content*/
+    .Consultation-Content {
+        height: 95px;
+    }
+
+    /* The height of the body of the page from the top and bottom, and in the event that its content is smaller than the entire page, 
+       so that the footer becomes at the bottom*/
+    div.Pagebody {
+        margin-top: 6%;
+    }
+
+    /* Put the Gavel Logo Start / End */
+    p.Gavel-Logo-Start, p.Gavel-Logo-End {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 799px) and (min-width: 550px) { /*3*/
+    /* The title inside the slide's pictures the home page */
+    .TitleSlide{
+        font-size:26px;
+    }
+
+     /* The paragraph inside the slide's pictures the home page */
+    .PSlide{
+        font-size:18px;
+        line-height:20px;
+    }
+
+    /* Image size of users on all pages */
+    img.SizeImage{
+        width:43%;
+    }
+
+    /* Consultation Title */
+    .Consultation-Title {
+        height: 60px;
+    }
+
+    /* Consultation Content*/
+    .Consultation-Content {
+        height: 95px;
+    }
+
+    /* The height of the body of the page from the top and bottom, and in the event that its content is smaller than the entire page, 
+       so that the footer becomes at the bottom*/
+    div.Pagebody {
+        margin-top: 11%;
+    }
+
+    /* Put the Gavel Logo Start / End */
+    p.Gavel-Logo-Start, p.Gavel-Logo-End {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 549px) and (min-width: 425px) { /*4*/
+    /* The title inside the slide's pictures the home page */
+    .TitleSlide{
+        font-size:24px;
+    }
+
+     /* The paragraph inside the slide's pictures the home page */
+    .PSlide{
+        font-size:16px;
+        line-height:18px;
+    }
+
+    /* Image size of users on all pages */
+    img.SizeImage{
+        width:40%;
+    }
+
+    /* Consultation Title */
+    .Consultation-Title {
+        height: 55px;
+    }
+
+    /* Consultation Content*/
+    .Consultation-Content {
+        height: 75px;
+    }
+
+    /* The height of the body of the page from the top and bottom, and in the event that its content is smaller than the entire page, 
+       so that the footer becomes at the bottom*/
+    div.Pagebody {
+        margin-top: 12%;
+    }
+
+    /* Put the Gavel Logo Start / End */
+    p.Gavel-Logo-Start, p.Gavel-Logo-End {
+        margin-left: -475px;
+    }
+}
+
+@media only screen and (max-width: 424px) and (min-width: 300px) { /*5*/
+    /* The title inside the slide's pictures the home page */
+    .TitleSlide{
+        font-size:20px;
+    }
+
+     /* The paragraph inside the slide's pictures the home page */
+    .PSlide{
+        font-size:14px;
+        line-height:15px;
+    }
+
+    /* Image size of users on all pages */
+    img.SizeImage{
+        width:40%;
+    }
+
+    /* Consultation Title */
+    .Consultation-Title {
+        height: 55px;
+    }
+
+    /* Consultation Content*/
+    .Consultation-Content {
+        height: 75px;
+    }
+
+    /* The height of the body of the page from the top and bottom, and in the event that its content is smaller than the entire page, 
+       so that the footer becomes at the bottom*/
+    div.Pagebody {
+        margin-top: 16%;
+    }
+
+    /* Put the Gavel Logo Start / End */
+    p.Gavel-Logo-Start, p.Gavel-Logo-End {
+        margin-left: -330px;
+    }
+}
+
+@media only screen and (max-width: 299px) and (min-width: 270px) {  /*6*/
+    /* The title inside the slide's pictures the home page */
+    .TitleSlide{
+        font-size:16px;
+    }
+
+    /* The paragraph inside the slide's pictures the home page */
+    .PSlide{
+        font-size:12px;
+        line-height:12px;
+    }
+
+    /* Image size of users on all pages */
+    img.SizeImage{
+        width:35%;
+    }
+
+    /* Consultation Title */
+    .Consultation-Title {
+        height: 60px;
+    }
+
+    /* Consultation Content*/
+    .Consultation-Content {
+        height: 120px;
+    }
+
+    /* The height of the body of the page from the top and bottom, and in the event that its content is smaller than the entire page, 
+       so that the footer becomes at the bottom*/
+    div.Pagebody {
+        margin-top: 22%;
+    }
+
+    /* Put the Gavel Logo Start / End */
+    p.Gavel-Logo-Start, p.Gavel-Logo-End {
+        margin-left: -215px;
+    }
+}

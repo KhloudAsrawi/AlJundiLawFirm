@@ -1,0 +1,13 @@
+﻿.badge { 
+        background-color:#ff0000; 
+        color: white;
+        border-radius:50px;
+        display: inline-block; 
+        margin-right: 10px;
+        box-shadow: 0 2px #999;
+    }
+
+.badge:hover { 
+        background-color:#a10000; 
+    }
+

@@ -1,0 +1,23 @@
+﻿.container{
+  font-weight:bold;
+  margin-top:15px;
+  font-family:Bahnschrift;
+}
+
+.container .box-row{
+    background:#f1f1f1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border:2px solid #000000;
+    border-radius:50px;
+}
+
+.container .row .col-sm-3{
+  padding-top:0px; 
+  padding-bottom:0px;
+}
+
+.container .row .col-sm-3 .statistic-logo{
+    font-size:30px;
+    color:#664d03;
+}
+
